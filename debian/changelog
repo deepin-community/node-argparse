@@ -1,0 +1,67 @@
+node-argparse (2.0.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Declare compliance with policy 4.6.0
+
+ -- Yadd <yadd@debian.org>  Fri, 20 Aug 2021 17:29:56 +0200
+
+node-argparse (2.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * New upstream version 2.0.1
+  * Remove debian/examples
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 01 Nov 2020 11:53:17 +0100
+
+node-argparse (1.0.10-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Remove obsolete field Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto test & install
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 18 Feb 2020 21:33:08 +0100
+
+node-argparse (1.0.10-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.10 (Closes: #868294)
+  * Bump Standards-Version to 4.3.0 (no changes needed)
+  * Bump debhelper compatibility level to 11
+  * Update URL is Vcs-* field
+  * Update d/rules
+  * Update d/copyright and d/control
+  * Add upstream test in autopkgtest
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Sat, 19 Jan 2019 21:40:37 +0530
+
+node-argparse (1.0.9-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.9
+  * nodejs to node patch no longer needed
+  * Standards-Version 4.1.2
+  * Section: javascript
+  * Priority: optional
+
+ -- Jérémy Lal <kapouer@melix.org>  Fri, 29 Dec 2017 14:58:59 +0100
+
+node-argparse (1.0.7-1) unstable; urgency=low
+
+  * Initial release (Closes: #779680)
+
+ -- Jonathan Ulrich Horn <debian@autoit4you.de>  Sat, 19 Mar 2016 15:10:33 +0100

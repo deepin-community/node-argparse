@@ -1,0 +1,27 @@
+Source: node-argparse
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Testsuite: autopkgtest-pkg-nodejs
+Uploaders: Jonathan Ulrich Horn <debian@autoit4you.de>
+Build-Depends: debhelper-compat (= 13)
+ , mocha <!nocheck>
+ , node-sprintf-js <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Homepage: https://github.com/nodeca/argparse
+Vcs-Git: https://salsa.debian.org/js-team/node-argparse.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-argparse
+Rules-Requires-Root: no
+
+Package: node-argparse
+Architecture: all
+Depends: ${misc:Depends}
+ , node-sprintf-js
+ , nodejs
+Description: CLI arguments parser for node.js
+ Javascript port of python's
+ [argparse](http://docs.python.org/dev/library/argparse.html) module
+ (original version 3.2). That's a full port, except some very rare options.
+ .
+ Node.js is an event-based server-side JavaScript engine.
